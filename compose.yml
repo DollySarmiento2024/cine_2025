@@ -2,11 +2,11 @@ services:
   db:
     image: dollysarmiento2024/mi_bbdd_cine:v1
     container_name: contenedor_bbdd_cine
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: cine
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
+    #environment:
+    #  MYSQL_ROOT_PASSWORD: root
+    #  MYSQL_DATABASE: cine
+    #  MYSQL_USER: root
+    #  MYSQL_PASSWORD: root
     ports:
       - "3306:3306"
   php:

@@ -7,7 +7,7 @@ ENV MYSQL_ROOT_PASSWORD=root
 ENV MYSQL_DATABASE=cine
 
 # usuario y contraseña base de datos
-ENV MYSQL_USER=root
-ENV MYSQL_PASSWORD=root
+ENV MYSQL_USER=fernanda
+ENV MYSQL_PASWORD=fernanda
 
 COPY cine.sql /docker-entrypoint-initdb.d/
