@@ -4,7 +4,7 @@ services:
     container_name: contenedor_bbdd_cine
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: concesionario
+      MYSQL_DATABASE: cine
       MYSQL_USER: root
       MYSQL_PASSWORD: root
     ports:
