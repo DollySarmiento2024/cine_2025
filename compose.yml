@@ -3,10 +3,10 @@ services:
     image: dollysarmiento2024/mi_bbdd_cine:v1
     container_name: contenedor_bbdd_cine
     #environment:
-    #  MYSQL_ROOT_PASSWORD: fernanda
-    #  MYSQL_DATABASE: cine
-    #  MYSQL_USER: fernanda
-    #  MYSQL_PASSWORD: fernanda
+    #  MYSQL_ROOT_PASSWORD: root
+    #  MYSQL_DATABASE: concesionario
+    #  MYSQL_USER: root
+    #  MYSQL_PASSWORD: root
     ports:
       - "3306:3306"
   php:

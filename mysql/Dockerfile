@@ -1,7 +1,7 @@
 FROM mysql:latest
 
 # contraseña root base de datos
-ENV MYSQL_ROOT_PASSWORD=root 
+ENV MYSQL_ROOT_PASSWORD=root
 
 #nombre base de datos
 ENV MYSQL_DATABASE=cine
