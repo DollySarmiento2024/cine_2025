@@ -22,7 +22,7 @@ services:
     container_name: contenedor_php_myadmin
     environment:
       PMA_HOST: db
-      MYSQL_ROOT_PASSWORD: fernanda
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - "8081:80"
     depends_on:
